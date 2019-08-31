@@ -1,0 +1,102 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Users\\tamir\\Source\\Repos\\SereneApp\\SereneApp.Web\\SereneApp.Web.csproj": {}
+  },
+  "projects": {
+    "D:\\Users\\tamir\\Source\\Repos\\SereneApp\\SereneApp.Web\\SereneApp.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Users\\tamir\\Source\\Repos\\SereneApp\\SereneApp.Web\\SereneApp.Web.csproj",
+        "projectName": "SereneApp.Web",
+        "projectPath": "D:\\Users\\tamir\\Source\\Repos\\SereneApp\\SereneApp.Web\\SereneApp.Web.csproj",
+        "packagesPath": "C:\\Users\\tamir\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\tamir\\Source\\Repos\\SereneApp\\SereneApp.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\tamir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "EPPlus": {
+              "target": "Package",
+              "version": "[4.5.2.1, )"
+            },
+            "FastMember": {
+              "target": "Package",
+              "version": "[1.4.1, )"
+            },
+            "MailKit": {
+              "target": "Package",
+              "version": "[2.0.6, )"
+            },
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.Data.Sqlite": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.TypeScript.MSBuild": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Serenity.FluentMigrator.Runner": {
+              "target": "Package",
+              "version": "[1.6.904, )"
+            },
+            "Serenity.Scripts": {
+              "target": "Package",
+              "version": "[3.9.10, )"
+            },
+            "Serenity.Web": {
+              "target": "Package",
+              "version": "[3.9.10, )"
+            },
+            "Serenity.Web.Assets": {
+              "target": "Package",
+              "version": "[3.9.2, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
